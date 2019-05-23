@@ -21,6 +21,7 @@ class SampleController extends Controller
         $data = [];
         $data['field_list'] = $field_list;
         $data['item_list'] = $l;
+
         return view('sample_list', $data);
     }
 }
