@@ -4,8 +4,8 @@ namespace App;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 
-class Sample extends Model
+class Sequence extends Model
 {
-    protected $collection = 'sample';
+    protected $collection = 'sequence';
     protected $guarded = [];
 }

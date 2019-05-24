@@ -10,6 +10,7 @@ class SampleController extends Controller
     public function index(Request $request)
     {
         $l = Sample::all()->toArray();
+        // $l = Sample::take(50)->get()->toArray();
 
         // $field_list = [];
         // foreach ($l as $item) {

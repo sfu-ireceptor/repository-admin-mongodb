@@ -1,9 +1,9 @@
 @extends('template')
 
-@section('title', 'Samples')
+@section('title', 'Sequences')
 
 @section('content')
-	<h1>Samples</h1>
+	<h1>Sequences</h1>
 	<table class="table table-bordered table-striped table-sm">
 		<thead class="thead-dark">
 			<tr>
